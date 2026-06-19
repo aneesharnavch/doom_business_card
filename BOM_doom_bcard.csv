@@ -1,0 +1,24 @@
+﻿No.,Quantity,Description ,Manifacturer,Supplier ,Supplier Part,Product Link ,Cost,Total (USD)
+1,7,SMD Buttons for Input,XKB Connection(中国星坤),LCSC,C318884,https://www.lcsc.com/product-detail/C318884.html?s_z=n_q_C318884&globalKeyword=C318884,0.0198,0.1386
+2,1,Buzzer for some sembelence of Audio ,INGHAi(赢海),LCSC,C255330,https://www.lcsc.com/product-detail/C255330.html?s_z=n_q_C255330&globalKeyword=C255330,0.7049,0.7049
+3,6,100nF 0402 Capacitors ,YAGEO(国巨),LCSC,C131394,https://www.lcsc.com/product-detail/C131394.html?s_z=n_q_C131394&globalKeyword=C131394,0.0059,0.0354
+4,16,10uF 0402 Capacitors ,SAMSUNG(三星),LCSC,C315248,https://www.lcsc.com/product-detail/C315248.html?s_z=n_q_C315248&globalKeyword=C315248,0.0406,0.6496
+5,3,47uF 0402 Capacitors ,SAMSUNG(三星),LCSC,C730416,https://www.lcsc.com/product-detail/C730416.html?s_z=n_q_C730416&globalKeyword=C730416,0.1236,0.3708
+6,2,18pF 0402 Capacitors ,YAGEO(国巨),LCSC,C106202,https://www.lcsc.com/product-detail/C106202.html?s_z=n_q_C106202&globalKeyword=C106202,0.0036,0.0072
+7,1,WIFI antenna attachment ,HRS(广濑),LCSC,C88374,https://www.lcsc.com/product-detail/C88374.html?s_z=n_q_C88374&globalKeyword=C88374,0.1089,0.1089
+8,1,4.7nH 0402 Inductor,TDK,LCSC,C275292,https://www.lcsc.com/product-detail/C275292.html?s_z=n_q_C275292&globalKeyword=C275292,0.0316,0.0316
+9,1,LDO regulator for solar power regulation ,MICRONE(南京微盟),LCSC,C82942,https://www.lcsc.com/product-detail/C82942.html?s_z=n_q_C82942&globalKeyword=C82942,0.0509,0.0509
+10,2,10KΩ 0402 Resistors,YAGEO(国巨),LCSC,C190095,https://www.lcsc.com/product-detail/C190095.html?s_z=n_q_C190095&globalKeyword=C190095,0.0207,0.0414
+11,1,22Ω 0402 Resistors,FOJAN,LCSC,C2929994,https://www.lcsc.com/product-detail/C2929994.html?s_z=n_q_C2929994&globalKeyword=C2929994,0.0015,0.001
+12,19,0Ω 0402 Resistors,YAGEO(国巨),LCSC,C106231,https://www.lcsc.com/product-detail/C106231.html?s_z=n_q_C106231&globalKeyword=C106231,0.0012,0.0228
+13,1,100Ω 0402 Resistors,YAGEO(国巨),LCSC,C106232,https://www.lcsc.com/product-detail/C106232.html?s_z=n_q_C106232&globalKeyword=C106232,0.0012,0.0012
+14,1,320x240 ST7789 driven Display ,HS(汉昇),LCSC,C5329583,https://www.lcsc.com/product-detail/C5329583.html?s_z=n_q_C5329583&globalKeyword=C5329583,3.6412,3.6412
+15,1,Solar battery charge regulation ,MICROCHIP(美国微芯),LCSC,C424093,https://www.lcsc.com/product-detail/C424093.html?s_z=n_q_C424093&globalKeyword=C424093,0.7875,0.7875
+16,1,ESP32S3 Microcontroller ,ESPRESSIF(乐鑫),LCSC,C2913194,https://www.lcsc.com/product-detail/C2913194.html?s_z=n_q_C2913194&globalKeyword=C2913194,3.3136,3.3136
+17,1,Serial flash memory ,Winbond(华邦),LCSC,C97521,https://www.lcsc.com/product-detail/C97521.html?s_z=n_q_C97521&globalKeyword=C97521,2.4553,2.4553
+18,1,2.7nH 0402 Inductor ,muRata(村田),LCSC,C7295850,https://www.lcsc.com/product-detail/C7295850.html?s_z=n_q_C7295850&globalKeyword=C7295850,0.125,0.125
+19,1,40MHz 15pF Crystal ,YXC(扬兴晶振),LCSC,C9010,https://www.lcsc.com/product-detail/C9010.html?s_z=n_q_C9010&globalKeyword=C9010,0.1113,0.1113
+20,1,0.3W 6V Mini Solar Panel ,Voltatic,Voltatic,P122,https://voltaicsystems.com/0-3-watt-6-volt-solar-panel-etfe,5.99,5.99
+21,1,90 mAH 3.7V battery,Generic,lionbattery.in,WLY401030,https://lionbattery.in/shop/shop/new-added-product/wly401030-1s-3-7v-90mah-lipo-battery-micro-rechargable-battery-pack/,1.08,1.08
+22,1,FR4 1.6mm 1 Oz Copper PCB ,JLCPCB ,JLCPCB,NA,https://cart.jlcpcb.com/quote?fileId=194269e6b0ca400391d0fa4368737905&uuid=feeafc2a5b0e4e95af0a69398939262b&achieveDate=72&eadLink=2&electropolishingOnlyNo=no&from=eda-pro,1.8,1.8
+,,,,,,,Total ,20.3882
