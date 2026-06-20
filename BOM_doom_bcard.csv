@@ -1,0 +1,24 @@
+﻿No.,Quantity,Description ,Supplier ,Supplier Part,Product Link ,Cost,Total (USD)
+1,7,SMD Buttons for Input,LCSC,C318884,https://www.lcsc.com/product-detail/C318884.html,0.0198,0.1386
+2,1,Buzzer for some sembelence of Audio ,LCSC,C255330,https://www.lcsc.com/product-detail/C255330.html,0.7049,0.7049
+3,6,100nF 0402 Capacitors ,LCSC,C131394,https://www.lcsc.com/product-detail/C131394.html,0.0059,0.0354
+4,16,10uF 0402 Capacitors ,LCSC,C315248,https://www.lcsc.com/product-detail/C315248.html,0.0406,0.6496
+5,3,47uF 0402 Capacitors ,LCSC,C730416,https://www.lcsc.com/product-detail/C730416.html,0.1236,0.3708
+6,2,18pF 0402 Capacitors ,LCSC,C106202,https://www.lcsc.com/product-detail/C106202.html,0.0036,0.0072
+7,1,WIFI antenna attachment ,LCSC,C88374,https://www.lcsc.com/product-detail/C88374.html,0.1089,0.1089
+8,1,4.7nH 0402 Inductor,LCSC,C275292,https://www.lcsc.com/product-detail/C275292.html,0.0316,0.0316
+9,1,LDO regulator for solar power regulation ,LCSC,C82942,https://www.lcsc.com/product-detail/C82942.html,0.0509,0.0509
+10,2,10KΩ 0402 Resistors,LCSC,C190095,https://www.lcsc.com/product-detail/C190095.html,0.0207,0.0414
+11,1,22Ω 0402 Resistors,LCSC,C2929994,https://www.lcsc.com/product-detail/C2929994.html,0.0015,0.001
+12,19,0Ω 0402 Resistors,LCSC,C106231,https://www.lcsc.com/product-detail/C106231.html,0.0012,0.0228
+13,1,100Ω 0402 Resistors,LCSC,C106232,https://www.lcsc.com/product-detail/C106232.html,0.0012,0.0012
+14,1,320x240 ST7789 driven Display ,LCSC,C5329583,https://www.lcsc.com/product-detail/C5329583.html,3.6412,3.6412
+15,1,Solar battery charge regulation ,LCSC,C424093,https://www.lcsc.com/product-detail/C424093.html,0.7875,0.7875
+16,1,ESP32S3 Microcontroller ,LCSC,C2913194,https://www.lcsc.com/product-detail/C2913194.html,3.3136,3.3136
+17,1,Serial flash memory ,LCSC,C97521,https://www.lcsc.com/product-detail/C97521.html,2.4553,2.4553
+18,1,2.7nH 0402 Inductor ,LCSC,C7295850,https://www.lcsc.com/product-detail/C7295850.html,0.125,0.125
+19,1,40MHz 15pF Crystal ,LCSC,C9010,https://www.lcsc.com/product-detail/C9010.html,0.1113,0.1113
+20,1,0.3W 6V Mini Solar Panel ,Voltatic,P122,https://voltaicsystems.com/0-3-watt-6-volt-solar-panel-etfe,5.99,5.99
+21,1,90 mAH 3.7V battery,lionbattery.in,WLY401030,https://lionbattery.in/shop/shop/new-added-product/wly401030,1.08,1.08
+22,1,FR4 1.6mm 1 Oz Copper PCB ,JLCPCB,NA,https://cart.jlcpcb.com/quote,1.8,1.8
+,,,,,,Total ,20.3882
