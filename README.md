@@ -1,5 +1,6 @@
 
-# A Business Card that plays DOOM !
+# A Business Card that plays DOOM 
+<img width="788" height="490" alt="Title_pic" src="https://github.com/user-attachments/assets/8ebdca8f-7587-471a-96e3-b5185fceda55" />
 
 A Business Card Sized PCB with a fully function microcontroller circuit to run DOOM off a tiny in built battery that self sustains with a solar panel.
 
@@ -56,6 +57,10 @@ I designed it in EasyEDA Pro. You can find the Gerber files in the repo, please 
 The board is powered primarily by a lil 3.7V 90mAH battery that survives and retains its juices from a Solar panel. Specifically , a mini Voltatic solar panel rated for 6V at 0.3W.
 
 The board while running Doom at a glorious 24FPS can survive for about 8 minutes on a 30 minute solar charge which is a near 1:3 ratio for charge to playtime which isn't even that bad for solar powered retro consoles with everything accounted for. 
+
+Charging it is relatively simple , since the display has a snug lil fit due its flexible connect cable , when not in use , you can move it out of the way to expose the solar panel to allow it to charge as you can see in the picture below 
+
+<img width="641" height="604" alt="power_situation_pic" src="https://github.com/user-attachments/assets/600b442b-a87b-4077-8800-e6dc8e1cbc1f" />
 
 # Modifying the PCB 
 
@@ -159,7 +164,223 @@ By nature of the porting and retro video game scene , this list shall be ever-gr
 - No DOOM2 (needs DOOM1 wad along with save data which exhausts game save data)
 
 # Files 
-
+doom_busniess_card:.
+│   BOM_doom_bcard.csv
+│   LICENSE
+│   README.md
+│   Zine_buisniess_card.pdf
+│
+├───Assets
+│       pcb_layout.png
+│       power_situation_pic.png
+│       schematic.png
+│       Title_pic.png
+│       ZINE_DOOM_BUSINESS_CARD.png
+│
+├───CAD_Files
+│       BACK_DOOM_BUSINESS_CARD.png
+│       DOOM_BUSINESS_CARD.f3d
+│       DOOM_BUSINESS_CARD.step
+│       FRONT_DOOM_BUSINESS_CARD.png
+│
+├───firmware
+│   │   firmware.ino
+│   │   FLASH-DOOM.bat
+│   │   flash.ps1
+│   │   partitions.csv
+│   │
+│   ├───data
+│   │       DOOM1.WAD
+│   │
+│   ├───src
+│   │   └───doom
+│   │           am_map.c
+│   │           am_map.h
+│   │           config.h
+│   │           deh_main.h
+│   │           deh_misc.h
+│   │           deh_str.h
+│   │           doom.h
+│   │           doomdata.h
+│   │           doomdef.c
+│   │           doomdef.h
+│   │           doomfeatures.h
+│   │           doomgeneric.c
+│   │           doomgeneric.h
+│   │           doomkeys.h
+│   │           doomstat.c
+│   │           doomstat.h
+│   │           doomtype.h
+│   │           dstrings.c
+│   │           dstrings.h
+│   │           dummy.c
+│   │           d_englsh.h
+│   │           d_event.c
+│   │           d_event.h
+│   │           d_items.c
+│   │           d_items.h
+│   │           d_iwad.c
+│   │           d_iwad.h
+│   │           d_loop.c
+│   │           d_loop.h
+│   │           d_main.c
+│   │           d_main.h
+│   │           d_mode.c
+│   │           d_mode.h
+│   │           d_net.c
+│   │           d_player.h
+│   │           d_textur.h
+│   │           d_think.h
+│   │           d_ticcmd.h
+│   │           f_finale.c
+│   │           f_finale.h
+│   │           f_wipe.c
+│   │           f_wipe.h
+│   │           gusconf.h
+│   │           g_game.c
+│   │           g_game.h
+│   │           hu_lib.c
+│   │           hu_lib.h
+│   │           hu_stuff.c
+│   │           hu_stuff.h
+│   │           info.c
+│   │           info.h
+│   │           i_cdmus.c
+│   │           i_cdmus.h
+│   │           i_endoom.c
+│   │           i_endoom.h
+│   │           i_input.c
+│   │           i_joystick.c
+│   │           i_joystick.h
+│   │           i_scale.c
+│   │           i_scale.h
+│   │           i_sound.c
+│   │           i_sound.h
+│   │           i_swap.h
+│   │           i_system.c
+│   │           i_system.h
+│   │           i_timer.c
+│   │           i_timer.h
+│   │           i_video.c
+│   │           i_video.h
+│   │           memio.c
+│   │           memio.h
+│   │           mus2mid.h
+│   │           m_argv.c
+│   │           m_argv.h
+│   │           m_bbox.c
+│   │           m_bbox.h
+│   │           m_cheat.c
+│   │           m_cheat.h
+│   │           m_config.c
+│   │           m_config.h
+│   │           m_controls.c
+│   │           m_controls.h
+│   │           m_fixed.c
+│   │           m_fixed.h
+│   │           m_menu.c
+│   │           m_menu.h
+│   │           m_misc.c
+│   │           m_misc.h
+│   │           m_random.c
+│   │           m_random.h
+│   │           net_client.h
+│   │           net_dedicated.h
+│   │           net_defs.h
+│   │           net_gui.h
+│   │           net_io.h
+│   │           net_loop.h
+│   │           net_packet.h
+│   │           net_query.h
+│   │           net_sdl.h
+│   │           net_server.h
+│   │           p_ceilng.c
+│   │           p_doors.c
+│   │           p_enemy.c
+│   │           p_floor.c
+│   │           p_inter.c
+│   │           p_inter.h
+│   │           p_lights.c
+│   │           p_local.h
+│   │           p_map.c
+│   │           p_maputl.c
+│   │           p_mobj.c
+│   │           p_mobj.h
+│   │           p_plats.c
+│   │           p_pspr.c
+│   │           p_pspr.h
+│   │           p_saveg.c
+│   │           p_saveg.h
+│   │           p_setup.c
+│   │           p_setup.h
+│   │           p_sight.c
+│   │           p_spec.c
+│   │           p_spec.h
+│   │           p_switch.c
+│   │           p_telept.c
+│   │           p_tick.c
+│   │           p_tick.h
+│   │           p_user.c
+│   │           r_bsp.c
+│   │           r_bsp.h
+│   │           r_data.c
+│   │           r_data.h
+│   │           r_defs.h
+│   │           r_draw.c
+│   │           r_draw.h
+│   │           r_local.h
+│   │           r_main.c
+│   │           r_main.h
+│   │           r_plane.c
+│   │           r_plane.h
+│   │           r_segs.c
+│   │           r_segs.h
+│   │           r_sky.c
+│   │           r_sky.h
+│   │           r_state.h
+│   │           r_things.c
+│   │           r_things.h
+│   │           sha1.c
+│   │           sha1.h
+│   │           sounds.c
+│   │           sounds.h
+│   │           statdump.c
+│   │           statdump.h
+│   │           st_lib.c
+│   │           st_lib.h
+│   │           st_stuff.c
+│   │           st_stuff.h
+│   │           s_sound.c
+│   │           s_sound.h
+│   │           tables.c
+│   │           tables.h
+│   │           v_patch.h
+│   │           v_video.c
+│   │           v_video.h
+│   │           wi_stuff.c
+│   │           wi_stuff.h
+│   │           w_checksum.c
+│   │           w_checksum.h
+│   │           w_file.c
+│   │           w_file.h
+│   │           w_file_stdc.c
+│   │           w_main.c
+│   │           w_main.h
+│   │           w_merge.h
+│   │           w_wad.c
+│   │           w_wad.h
+│   │           z_zone.c
+│   │           z_zone.h
+│   │
+│   └───TFTTest
+│           flash-test.ps1
+│           RUN-TEST.bat
+│           TFTTest.ino
+│
+└───PCB_files
+        Gerber_Doom_Bcard.zip
+        PickAndPlace_Doom_Bcard.xlsx
+        Source_Doom_Bcard.epro
 
 # Zine
 <img width="2819" height="4000" alt="DOOM_BUSINESS_CARD" src="https://github.com/user-attachments/assets/6a088355-42a0-4656-a320-98f7d83f6978" />
